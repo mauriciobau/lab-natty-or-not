@@ -1,51 +1,19 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
-
-## 🚀 Introdução
-
-> Woooow! Look at this 👀
-
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
-
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
-
-### Objetivos
-
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
-
-### Template
-
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+# Podcast: Clean Architecture em 6 Minutos 🎙️
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+Este episódio de 6 minutos, baseado nas ideias de Robert C. Martin (Uncle Bob), oferece uma análise concisa dos princípios da **Arquitetura Limpa**. O foco está em **minimizar os recursos humanos** necessários para o desenvolvimento e manutenção do sistema, garantindo que o software permaneça "soft" (fácil de mudar). O podcast explica a **Regra de Dependência** (Dependency Rule) e a importância de manter os **detalhes (como Bancos de Dados e Web)** separados das regras de negócio centrais (políticas).
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+- **Modelo de Linguagem Avançado (LLM)** para roteirização e síntese de conteúdo (simulação);
+- Fonte intelectual primária: Livro **"Clean Architecture: A Craftsman’s Guide to Software Structure and Design"** de Robert C. Martin.
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+O roteiro foi estruturado para destacar a tese central de que a arquitetura deve priorizar a **estrutura** sobre o **comportamento** e que a má arquitetura leva à "abordagem assintótica em direção a zero" na produtividade. O processo envolveu a extração dos conceitos de camadas (Entidades, Casos de Uso) e a aplicação da **Regra de Dependência** para orientar as prioridades de design.
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
+O episódio introduz o ouvinte aos conceitos fundamentais da Arquitetura Limpa, mostrando que o objetivo é criar sistemas **independientes de UI** e **testáveis**, onde as decisões sobre detalhes externos podem ser **adiadas pelo maior tempo possível**.
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
+[LINK PARA O PODCAST AQUI](https://github.com/mauriciobau/lab-natty-or-not/blob/main/Mon%C3%B3lito_Flex%C3%ADvel_vs.m4a)
 
-### Exemplos e Insigths
-
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
-
-## Links Interessantes
-
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
-
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+## 💭 Reflexão
+A elaboração deste conteúdo reforça a responsabilidade do arquiteto em lutar pela **estrutura** do sistema, mantendo o software flexível. As regras arquiteturais são **atemporais e consistentes**, e os elementos que mudam com frequência (como a Web ou o Banco de Dados) devem ser tratados como **detalhes periféricos**, jamais dominando a arquitetura central.
